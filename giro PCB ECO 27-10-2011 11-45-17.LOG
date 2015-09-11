@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=VCC Pin=C1-2
+Removed Pin From Net: NetName=VCC Pin=C2-1
+Removed Pin From Net: NetName=VCC Pin=C3-1
+Removed Pin From Net: NetName=VCC Pin=U1-14
+Removed Pin From Net: NetName=VCC Pin=U1-15
+Change Component Comment : Designator=C3 Old Comment=10nF New Comment=10uF
+Change Component Comment : Designator=C2 Old Comment=470F New Comment=470nF
+Added Component: Designator=Rcs(C1608-0603)
+Added Component: Designator=Rsdo(C1608-0603)
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=C2-1
+Added Pin To Net: NetName=NetC1_2 Pin=U1-14
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=U1-15
+Added Net: Name=NetC3_1
+Added Room: Name=giro

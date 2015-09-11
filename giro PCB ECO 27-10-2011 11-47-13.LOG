@@ -1,0 +1,5 @@
+Added Component: Designator=Rcs(C1608-0603)
+Added Component: Designator=Rsdo(C1608-0603)
+Added Pin To Net: NetName=VCC Pin=C3-1
+Added Pin To Net: NetName=VCC Pin=U1-15
+Added Room: Name=giro

@@ -1,0 +1,36 @@
+Protel Design System Design Rule Check
+PCB File : \2010-2011\PCBs\Prueba L3G4200D\giro.PcbDoc
+Date     : 17/01/2011
+Time     : 17:08:31
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+   Violation between Pad U1-5(66.975mm,113.97mm)  Top Layer and                      Pad U1-4(66.375mm,114.59mm)  Top Layer   
+Rule Violations :1
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=0.2mm) (Preferred=0.2mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+   Violation         Net VCC   is broken into 11 sub-nets. Routed To 0.00%
+     Subnet : Rpu2-1        Subnet : Rpu1-1        Subnet : P1-2          Subnet : U1-1          Subnet : C4-1          Subnet : U1-16         Subnet : U1-15         Subnet : U1-14         Subnet : C3-1          Subnet : C1-2          Subnet : R1-1        Violation         Net SDO/SA0   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : P1-5          Subnet : U1-4        Violation         Net SDA/SDI/SDO   is broken into 3 sub-nets. Routed To 0.00%
+     Subnet : P1-4          Subnet : Rpu2-2        Subnet : U1-3        Violation         Net NetRpu1_2   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : Rpu1-2        Subnet : U1-2        Violation         Net NetC2_1   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : R1-2          Subnet : C2-1        Violation         Net INT1   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : P1-8          Subnet : U1-7        Violation         Net GND   is broken into 11 sub-nets. Routed To 0.00%
+     Subnet : U1-8          Subnet : U1-13         Subnet : P1-1          Subnet : C4-2          Subnet : C3-2          Subnet : U1-9          Subnet : U1-10         Subnet : U1-11         Subnet : U1-12         Subnet : C1-1          Subnet : C2-2        Violation         Net DRDY/INT2   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : P1-7          Subnet : U1-6        Violation         Net CS   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : P1-6          Subnet : U1-5     Rule Violations :9
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 10
+Time Elapsed        : 00:00:00

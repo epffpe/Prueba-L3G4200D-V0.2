@@ -1,0 +1,28 @@
+Protel Design System Design Rule Check
+PCB File : \Documents and Settings\jdmorales\Mis documentos\aerolaser\04_PCBs\Prueba L3G4200D V0.2\giro.PcbDoc
+Date     : 27/10/2011
+Time     : 12:10:18
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+   Violation between Pad U1-5(67.102mm,113.716mm)  Top Layer and                      Pad U1-4(66.502mm,114.336mm)  Top Layer   
+Rule Violations :1
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=1mm) (Preferred=0.5mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+   Violation         Net VCC   is broken into 2 sub-nets. Routed To 87.50%
+     Subnet : Rcs-1         Subnet : Rpu2-1   P1-2     Rpu1-1   C4-1     C3-1     U1-16    U1-15    U1-1     Rule Violations :1
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 2
+Time Elapsed        : 00:00:00
